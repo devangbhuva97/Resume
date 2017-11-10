@@ -1,0 +1,115 @@
+body {
+	overflow-x: hidden;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #f5f5f5;
+}
+
+section {
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    padding: 30px 40px 30px 40px;
+    background: #fff;
+    margin-bottom: 45px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+.t-c {
+	text-align: center;
+}
+
+
+.header {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.header-hr {
+	height: 20px;
+	background-color: #4CAF50;
+	margin-bottom: 30px;
+}
+
+.introduction .name {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 44px;
+}
+
+.introduction .role {
+	font-size: 32px;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #4CAF50;
+}
+
+.introduction .contact-details p {
+	font-size: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #8a8a8a;	
+}
+
+.section-title {
+	font-weight: 700;
+	color: #4CAF50;
+	font-size: 28px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.all-skills {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.skill {
+	-webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    padding: 6px 30px;
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid #f5f5f5;
+    border-left: 3px solid #4CAF50;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.skill-list {
+	flex-wrap: wrap;
+	display: flex;
+}
+
+.skill-list li {
+	flex: 1 0 50%;
+}
+
+.experience .role {
+	font-style: italic;
+	padding-left: 40px;
+}
+
+.duration {
+	text-transform: uppercase;
+}
+
+.education .degree {
+	font-style: italic;
+	padding-left: 40px;
+}
+
+.result {
+	
+}
+
