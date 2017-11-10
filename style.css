@@ -164,3 +164,10 @@ section {
 	font-size: 18px;
 	font-weight: 300;	
 }
+
+@media (max-width: 1024px) {
+ 	section {
+ 		margin-left: 0;
+ 		margin-right: 0;
+ 	}   
+}
