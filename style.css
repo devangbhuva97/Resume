@@ -1,7 +1,6 @@
 body {
+	font-family: 'Roboto';
 	overflow-x: hidden;
-	margin-left: 15%;
-	margin-right: 15%;
 	background-color: #f5f5f5;
 }
 
@@ -20,6 +19,8 @@ section {
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
+    margin-left: 10%;
+	margin-right: 10%;
 }
 
 .t-c {
@@ -31,12 +32,25 @@ section {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 700;
+	font-size: 26px;
 }
 
 .header-hr {
 	height: 20px;
 	background-color: #4CAF50;
 	margin-bottom: 30px;
+}
+
+.introduction {
+	text-align: center;
+}
+
+.profile-image {
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	margin-bottom: 20px;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 }
 
 .introduction .name {
@@ -52,11 +66,31 @@ section {
 	color: #4CAF50;
 }
 
-.introduction .contact-details p {
+.contact-details p {
 	font-size: 20px;
-	margin-top: 0;
-	margin-bottom: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	color: #8a8a8a;	
+}
+
+.contact-details .fa {
+	padding-right: 20px;
+	color: #4CAF50;
+}
+
+.social {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.social a {
+    color: #4CAF50;
+    display: inline-block;
+    width: 32px;
+}
+
+.social li {
+    display: inline-block;
 }
 
 .section-title {
@@ -70,6 +104,8 @@ section {
 .all-skills {
 	margin-left: 20%;
 	margin-right: 20%;
+	text-align: center;
+	padding-top: 20px;
 }
 
 .skill {
@@ -95,21 +131,36 @@ section {
 	flex: 1 0 50%;
 }
 
+.company {
+	font-size: 20px;
+	font-weight: 600;
+	padding: 10px 0 10px 0;
+}
+
 .experience .role {
 	font-style: italic;
 	padding-left: 40px;
+	font-weight: 500;
+	color: #4CAF50;
+	font-size: 17px;
 }
 
 .duration {
 	text-transform: uppercase;
+	font-weight: 500;
+	color: #8a8a8a;
+	font-size: 16px;
 }
 
 .education .degree {
 	font-style: italic;
 	padding-left: 40px;
+	font-weight: 500;
+	color: #4CAF50;
+	font-size: 17px;
 }
 
-.result {
-	
+.education .result {
+	font-size: 18px;
+	font-weight: 300;	
 }
-
